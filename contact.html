@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ body {
+                background-image: url("assets/images/subtle_white_feathers.png");
+                background-color: #cccccc;
+                border-color: #dddddd;
+            }
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+.contactme {
+    font-family: "Georgia";
+    color: #4aaaa5;
+    font-size: 30px;
+    margin: 2px;
+    padding: 2px;
+    border-bottom: .5px #dddddd solid;
+}
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="logo">
+            <li>Pia Tello</li>
+        </ul>
+        <ul class="navbar">
+            <a href="index.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </ul>
+    </nav>
+
+</header>
+
+<div class="container">
+    <h3 class="contactme">Contact Me</h3>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+ 
+</div>
+<div>
+        <footer class="footercontainer clearfix footerbackground">
+                <p>Copyright</p>
+        
+            </footer>
+</div>
+
+</body>
+</html>

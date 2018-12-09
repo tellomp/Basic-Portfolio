@@ -1,0 +1,226 @@
+.topline{
+    border-bottom: 5px #4aaaa5 solid;
+    width: 100%;
+
+}
+.logo {
+    display: inline-block;
+    background-color: #4aaaa5;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 10px;
+    font-family: "Georgia";
+    color: #f2f2f2;
+    font-size: 30px;
+    margin-right: 100px;
+}
+/* Add a black background color to the top navigation */
+ .navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: "Georgia";
+    color: #777777;
+    float: right;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px #cccccc solid;
+    height: 70px;
+    line-height: 70px;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #4aaaa5;
+    color:#777777;
+  }
+  
+
+.container {
+    height: 500px;
+    width: 960px;
+    border: 1px #dddddd solid;
+    font-family: "Helvetica Neue";
+    color: #777777;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 128px;
+
+}
+.othercontainer {
+    height: 500px;
+    width: 600px;
+    border: 3px #777777 solid;
+    font-family: "Helvetica Neue";
+    color: #777777;
+    background-color: #ffffff;
+}
+.footercontainer {
+    width: 100%;
+    font-family: "Helvetica Neue";
+    color:#dddddd;
+    border-top: 5px #4aaaa5 solid;
+    text-align: center;
+    
+
+}
+.aboutmepic {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+    float: left;
+}
+.aboutmeborder {
+    border-bottom: .5px #dddddd solid;
+    font-family: "Georgia";
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+  .footerbackground {
+      background-color: #666666;
+      font-family: "Helvetica Neue";
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Georgia;
+  }
+  .portfolio {
+    font-family: "Georgia";
+    color: #4aaaa5;
+    font-size: 30px;
+  }
+  
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color:#cccccc;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+ 
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color:#4aaaa5;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #4aaaa5;
+}
+
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+
+}
+.contactme {
+font-family: "Georgia";
+color: #4aaaa5;
+font-size: 30px;
+margin: 2px;
+padding: 2px;
+border-bottom: .5px #dddddd solid;
